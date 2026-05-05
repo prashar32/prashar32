@@ -79,7 +79,7 @@ Patterns the next 100+ engineers joined into
 </tr>
 </table>
 
-> Most of my code lives in private org repos. **[Snapshot of recent activity →](https://github.com/adarsh-omniful)**
+> Most of my code lives in private org repos. **[Snapshot of recent activity →](https://github.com/adarsh-omniful?tab=overview&from=2025-12-01&to=2025-12-31)**
 
 ---
 
