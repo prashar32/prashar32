@@ -109,7 +109,7 @@ Patterns the next 100+ engineers joined into
 | **Codeforces** | Candidate Master · 2048 *(top 100 in India)* |
 | **CodeChef** | 6★ · 2208 |
 | **ICPC** | 2x Regionalist |
-| **LeetCode** | Guardian · 2249 *(top 0.7%, all-time)* |
+| **LeetCode** | Guardian · 2249 *(top 0.5%, all-time)* |
 | **ICPC** | 2× Regionalist |
 | **Google Code Jam** | Round 2 qualifier (2021) |
 | **Meta Hacker Cup** | Round 2 qualifier (2021) |
