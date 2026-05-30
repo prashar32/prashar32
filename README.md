@@ -2,29 +2,29 @@
 
 # Adarsh Prashar
 
-### Backend Engineer · Distributed Systems · Currently building [Bharat Trade](https://bharat-trade-nine.vercel.app)
+### Backend Engineer · Distributed Systems · Currently building [The Sunrize](https://thesunrize.com)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-adarshprashar-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/adarshprashar)
 [![Email](https://img.shields.io/badge/Email-adarsh.prashar@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:adarsh.prashar@gmail.com)
 [![Codeforces](https://img.shields.io/badge/Codeforces-Candidate%20Master%20·%202048-1F8ACB?style=flat-square&logo=codeforces&logoColor=white)](https://codeforces.com/profile/prashar32)
-[![Bharat Trade](https://img.shields.io/badge/Bharat%20Trade-live-22c55e?style=flat-square)](https://bharat-trade-nine.vercel.app)
+[![The Sunrize Trade](https://img.shields.io/badge/The%Sunrize-live-22c55e?style=flat-square)]([https://bharat-trade-nine.vercel.app](https://thesunrize.com))
 
 </div>
 
 ---
 
 > Backend engineer at **[Omniful](https://omniful.ai)** by day — joined as the first backend engineer when the team was 10, still here as it crosses 150.  
-> Building **[Bharat Trade](https://bharat-trade-nine.vercel.app)** by night — an AI co-pilot for Indian retail traders, in private beta with paying users.
+> Building **[The Sunrize]([https://thesunrize.com](https://thesunrize.com))** by night — an AI co-pilot for Indian retail traders, in private beta with paying users.
 
 ---
 
-## 🚢 Bharat Trade — what I'm shipping right now
+## 🚢 The Sunrize — what I'm shipping right now
 
-<a href="https://bharat-trade-nine.vercel.app">
-  <img src="./assets/bharat-trade.png" alt="Bharat Trade — Mission Control" width="100%" />
+<a href="https://thesunrize.com">
+  <img src="./assets/thesunrize.png" alt="The Sunrize — Mission Control" width="100%" />
 </a>
 
-**🔗 Live (invite-only):** [bharat-trade-nine.vercel.app](https://bharat-trade-nine.vercel.app)
+**🔗 Live (invite-only):** [thesunrize.com](https://thesunrize.com)
 
 > Built solo, end-to-end. Frontend, backend, agents, risk engine, broker integration, billing, infra — all me.
 
@@ -145,6 +145,6 @@ Independent evaluation work on frontier LLMs — rubric design, response grading
 
 <div align="center">
 
-**[adarsh.prashar@gmail.com](mailto:adarsh.prashar@gmail.com) · [linkedin.com/in/adarshprashar](https://linkedin.com/in/adarshprashar) · [bharat-trade-nine.vercel.app](https://bharat-trade-nine.vercel.app)**
+**[adarsh.prashar@gmail.com](mailto:adarsh.prashar@gmail.com) · [linkedin.com/in/adarshprashar](https://linkedin.com/in/adarshprashar) · [thesunrize.com](https://thesunrize.com)**
 
 </div>
