@@ -7,7 +7,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-adarshprashar-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/adarshprashar)
 [![Email](https://img.shields.io/badge/Email-adarsh.prashar@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:adarsh.prashar@gmail.com)
 [![Codeforces](https://img.shields.io/badge/Codeforces-Candidate%20Master%20·%202048-1F8ACB?style=flat-square&logo=codeforces&logoColor=white)](https://codeforces.com/profile/prashar32)
-[![The Sunrize Trade](https://img.shields.io/badge/The%Sunrize-live-22c55e?style=flat-square)]([https://bharat-trade-nine.vercel.app](https://thesunrize.com))
+[![The Sunrize](https://img.shields.io/badge/The%20Sunrize-22c55e?style=flat-square)](https://thesunrize.com)
 
 </div>
 
