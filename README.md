@@ -2,37 +2,33 @@
 
 # Adarsh Prashar
 
-### Backend Engineer · Distributed Systems · Currently building [The Sunrize](https://thesunrize.com)
+### Backend & distributed-systems engineer · building [RiskKernel](https://github.com/prashar32/riskkernel) (open-source agent reliability) and [The Sunrize](https://thesunrize.com) (AI trading co-pilot)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-adarshprashar-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/adarshprashar)
-[![Email](https://img.shields.io/badge/Email-adarsh.prashar@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:adarsh.prashar@gmail.com)
+[![Email](https://img.shields.io/badge/Email-adarsh.prashar32@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:adarsh.prashar32@gmail.com)
 [![Codeforces](https://img.shields.io/badge/Codeforces-Candidate%20Master%20·%202048-1F8ACB?style=flat-square&logo=codeforces&logoColor=white)](https://codeforces.com/profile/prashar32)
-[![The Sunrize](https://img.shields.io/badge/The%20Sunrize-22c55e?style=flat-square)](https://thesunrize.com)
+[![The Sunrize](https://img.shields.io/badge/The%20Sunrize-live-22c55e?style=flat-square)](https://thesunrize.com)
+[![RiskKernel](https://img.shields.io/badge/RiskKernel-live-22c55e?style=flat-square)](https://github.com/prashar32/riskkernel)
 
 </div>
 
 ---
 
-> Backend engineer at **[Omniful](https://omniful.ai)** by day — joined as the first backend engineer when the team was 10, still here as it crosses 150.  
-> Building **[The Sunrize]([https://thesunrize.com](https://thesunrize.com))** by night — an AI co-pilot for Indian retail traders, in private beta with paying users.
-
----
-
-## 🚢 The Sunrize — what I'm shipping right now
+## 🚢 The Sunrize — AI trading co-pilot
 
 <a href="https://thesunrize.com">
   <img src="./assets/thesunrize.png" alt="The Sunrize — Mission Control" width="100%" />
 </a>
 
-**🔗 Live (invite-only):** [thesunrize.com](https://thesunrize.com)
+🔗 **[thesunrize.com](https://thesunrize.com)** · private beta
 
-> Built solo, end-to-end. Frontend, backend, agents, risk engine, broker integration, billing, infra — all me.
+Built solo, end-to-end. Frontend, backend, agents, risk engine, broker integration, billing, infra.
 
 | Component | What it does |
 |---|---|
-| **Six-agent AI architecture** | HELM (orchestrator) · PULSE (news) · PRISM (technicals) · HORIZON (macro) · SENTRY (risk) · LEDGER (auto-journal). Multi-model debate floor — Claude + GPT — with per-user spend caps. |
+| **Six-agent AI architecture** | HELM (orchestrator) · PULSE (news) · PRISM (technicals) · HORIZON (macro) · SENTRY (risk) · LEDGER (auto-journal). Multi-model — Claude + GPT — with per-user spend caps. |
 | **Server-enforced risk engine** | 2% per trade · 6% monthly cap · 15% position size · 3 concurrent positions. Hard-coded, no overrides. |
-| **Live broker execution** | Zerodha Kite via official API. Smart bracket orders. Idempotent under network retries. Paper or live with one tap. |
+| **Live broker execution** | Zerodha Kite via official API. Smart bracket orders. Idempotent under network retries. |
 | **Nifty straddle scalper** | Automated ATM straddle. Black-Scholes pricing, India-VIX-derived IV for paper mode. |
 
 ![Next.js](https://img.shields.io/badge/Next.js%2014-000000?style=flat-square&logo=next.js&logoColor=white)
@@ -44,42 +40,73 @@
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![Anthropic](https://img.shields.io/badge/Anthropic-181818?style=flat-square)
 
-*Currently rolling out access by invitation. DM if you want a look.*
+---
+
+## 🛡️ RiskKernel — open-source SRE layer for AI agents
+
+🔗 **[github.com/prashar32/riskkernel](https://github.com/prashar32/riskkernel)** · Apache-2.0 · Go core + Python SDK
+
+A self-hosted reliability runtime for AI agents. Deterministic cost / loop / time budgets and a kill switch — all enforced in compiled Go, never by an LLM.
+
+| Capability | What it does |
+|---|---|
+| **Deterministic enforcement** | Cost, loop, and wall-time budgets enforced in compiled Go. No "the model decides when to stop." |
+| **Kill switch** | Pull the plug at the runtime layer. Survives any prompt-injection or agent reasoning failure. |
+| **Crash-resumable runs** | SQLite-backed run state. Restart anywhere in the loop. Git-native, owned memory. |
+| **Human approval gates** | Side-effecting tool calls (writes, payments, deletes) require a human signature. |
+| **OpenTelemetry GenAI export** | Plug into the OTel ecosystem; no proprietary lock-in. |
+| **One env var to adopt** | BYO key, no telemetry, no signups. |
+
+Adapters for Claude Agent SDK, OpenAI Agents SDK, and LangChain.
+
+Positioning: the *risk-engine / SRE layer* for AI agents. Not a gateway (LiteLLM), not an observability dashboard (Langfuse), not a content-guardrail engine — interoperates with all of them.
+
+> "I've spent years building deterministic risk engines that wrap non-deterministic systems — the kind where a mistake costs real money. The safe part was never the smart part; it was the hard-coded layer around it. RiskKernel generalizes that discipline for AI agents."
 
 ---
 
-## 🏢 At Omniful
+## 🏢 Previously at Omniful
+
+First backend engineer when the team was 10. Stayed through it crossing 150.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**Order Management Service**  
-75K+ orders/day · 99.9999% uptime
+**Order Management Service**
+75K+ orders/day · 99.9999% uptime · first commit → launch
 
-**Shipment Management Service** — *"the brain"*  
-500K+ packages/month routed across carriers
+**Shipment Management Service** — *"the brain"*
+500K+ shipments/month · +35% delivery accuracy
 
-**ClickHouse analytics layer**  
-1M+ aggregate queries/month at sub-second p95
+**ClickHouse analytics layer**
+1M+ transactions/month · sub-second p95
+
+**Rule Management Service**
+−50% feature rollout time · 800+ global sellers
 
 </td>
 <td width="50%" valign="top">
 
-**Centralized Logging Service**  
-Adopted by every backend team · cut incident response 40%
+**Centralized Logging Service**
+Adopted by every backend team · cut platform-wide incident response 40%
 
-**Monolith → microservices**  
+**Monolith → microservices** (+ DB migration)
 Led end-to-end · zero downtime, zero data loss
 
-**SLO-driven monitoring + auto-deploy**  
-Patterns the next 100+ engineers joined into
+**Platform reliability**
+SLO-driven monitoring, automated deploys, unified API versioning, 10× peak-traffic scaling
+
+**IC scope**
+Built platform tooling from concept to production as the team scaled 10 → 150+
 
 </td>
 </tr>
 </table>
 
-> Most of my code lives in private org repos. **[Snapshot of recent activity →](https://github.com/adarsh-omniful?tab=overview&from=2025-12-01&to=2025-12-31)**
+Stack: Go · PostgreSQL · MongoDB · RocksDB · Redis · Kafka · ClickHouse · AWS
+
+> Most of my code lives in private org repos. **[Snapshot of recent activity →](https://github.com/adarsh-omniful)**
 
 ---
 
@@ -106,15 +133,14 @@ Patterns the next 100+ engineers joined into
 
 | Platform | Status |
 |---|---|
-| **Codeforces** | Candidate Master · 2048 *(top 100 in India)* |
+| **Codeforces** | Candidate Master · 2048 *(top ~100 in India)* |
 | **CodeChef** | 6★ · 2208 |
-| **ICPC** | 2x Regionalist |
 | **LeetCode** | Guardian · 2249 *(top 0.5%, all-time)* |
 | **ICPC** | 2× Regionalist |
 | **Google Code Jam** | Round 2 qualifier (2021) |
 | **Meta Hacker Cup** | Round 2 qualifier (2021) |
 
-**~3,000 problems solved** across all platforms.
+**~3,000 problems solved.** Set 400+ problems for InterviewBit / Scaler Academy hiring contests.
 
 ---
 
@@ -145,6 +171,8 @@ Independent evaluation work on frontier LLMs — rubric design, response grading
 
 <div align="center">
 
-**[adarsh.prashar@gmail.com](mailto:adarsh.prashar@gmail.com) · [linkedin.com/in/adarshprashar](https://linkedin.com/in/adarshprashar) · [thesunrize.com](https://thesunrize.com)**
+👀 **Open to founding-engineer · backend · AI-infra roles.**
+
+**[adarsh.prashar32@gmail.com](mailto:adarsh.prashar32@gmail.com) · [linkedin.com/in/adarshprashar](https://linkedin.com/in/adarshprashar) · [github.com/prashar32](https://github.com/prashar32)**
 
 </div>
